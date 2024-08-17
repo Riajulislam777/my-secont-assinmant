@@ -1,0 +1,138 @@
+@media screen and (max-width:500px){
+    
+    
+    .nav-hamburger-menu{
+        display: block;
+ }
+ .nav-links{
+    display: none;
+ }
+ .banner-main
+ {
+   flex-direction: column;
+ } 
+ .text-buld{
+    margin-top: 100px;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 1);
+}
+.text-peregap{
+    font-size: 1rem;
+    padding: 20px;
+}
+ .banner-childs{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    
+}
+.banner-childs img{
+ width: 100%;
+} 
+ .three-plas{
+    
+    padding: 15px 20px;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 3%;
+}  
+.fifty-plas{
+    
+    padding: 15px 20px;
+    align-items: center;
+    position: absolute;
+    top: 135%;
+    left: 55%;
+}
+/* habits css starts here */
+.habits-title{
+ 
+    text-align: center;
+    padding: 1px;
+   }
+
+.habits-container{
+    grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    ;
+    width: 50%;
+    margin: 50px auto 0px;
+}
+
+.run-containar{
+    flex-direction: column;
+}
+.run-left{
+    width: 100%;
+    padding: 20px;
+    }
+    .run-right{
+    width: 100%;
+    }
+
+    .run-right img{
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        object-fit: cover;
+        
+    }
+    .run-text{
+        font-size: 2.5rem;
+        margin-bottom: 12px;
+    }
+    .bmi-title{
+        flex-direction: column;   
+    }
+    .bmi-main{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .bmi-child{
+        width: 100%;
+        margin-top: 40px;
+    }
+  
+    .bmi-title-text{
+        font-size: 2rem;
+        
+    }
+    .content{
+        grid-template-areas:
+        "a1" 
+        "b2" 
+        "c3"
+        "d4" 
+        "e5" 
+        "f6"
+        ; 
+        width: 60%;
+        margin: 50px auto 0px;
+    }
+    .finis{
+        display: none;
+    }
+    /*footer secton respons  */
+    .footer-containar{
+    flex-direction: column;
+}
+.footer1,.footer2{
+    padding: 50px;
+    width: 100%;
+    /* line-height: 40px;
+    text-align: left; */
+}
+.footer-fitness{
+    width: 100%;
+    /* margin-left: 90px;
+    padding: 20px;
+    text-align: left; */
+}
+ 
+}
+    
